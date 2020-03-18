@@ -1,0 +1,81 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Sen', sans-serif;
+    line-height: 3rem;
+}
+
+.general-menu {
+    height: 85px;
+    border-bottom: solid 1px gold;
+}
+
+.basic-padding {
+    padding: 50px 30px 20px 50px;
+}
+
+.explore-the-world {
+    height: 511px;
+    background: url(../images/christmas-3823556_1920.jpg) no-repeat;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.large-body-text {
+    font-size: 60px;
+}
+
+a {
+    /* text-decoration: underline; */
+    color: white;
+    padding: 10px;
+}
+
+.explore-image img{
+    /* float: right; */
+    max-height: 450px;
+}
+
+button {
+    background-color: rgb(27, 87, 155);
+    border: none;
+    padding: 15px;
+    position: fixed;
+    top: 85%;
+    left: 3%;
+    border-radius: 10%;
+  }
+
+  .popular-cities {
+      height: 905px;
+  }
+  
+  /* .places-row-one {
+      max-height: 50%;
+  } */
+
+  .place-image img{
+      max-width: 100%;
+  }
+
+  .get-app {
+      height: 482px;
+  }
+
+  .travel-inspiration {
+      height: 390px;
+  }
+
+  .footer {
+      height: 294px;
+  }
+
+  .copyrights {
+     height: 86px;
+  }

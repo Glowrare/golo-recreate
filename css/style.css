@@ -5,7 +5,7 @@ body {
 
 
 .basic-padding {
-    padding: 50px 30px 20px 50px;
+    padding: 0 30px 20px 50px;
 }
 
 .explore-the-world {
@@ -23,55 +23,83 @@ body {
     border: 0;
 }
 
+/* font definitions - start*/
 .large-body-text {
     font-size: 60px;
 }
+
+.moderate-body-text {
+    font-size: 30px;
+}
+
+.medium-body-text {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/* font definitions - end*/
 
 a {
     color: black;
     padding: 10px;
 }
 
-/* .explore-image img{
-    float: right;
-    max-height: 450px;
-} */
-
 button {
-    background-color: rgb(27, 87, 155);
-    color: wheat;
+    background-color: hotpink;
+    color: white;
     border: none;
     padding: 15px;
     position: fixed;
     top: 85%;
     left: 3%;
     border-radius: 60px;
+    z-index: 10;
   }
 
   .popular-cities {
       height: 905px;
   }
 
-  /* .popular-cities-showcase {
-      display: flex;
-      flex-direction: row;
-  } */
+  .popular-cities-showcase {
+      height: 47%;
+  }
   
  .place {
      width: 25%;
  }
 
- .places-row-one {
+ .places-row {
      display: flex;
-
  }
 
+.country-text {
+    position: relative;
+}
+
   .place-image img{
-      max-width: 100%;
+      border-radius: 20px;
+      max-width: 90%;
+      opacity: 0.5;
   }
+
+  .place-details {
+      position: absolute;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      top: 0;
+      left: 30px;
+      height: 380px;
+      color: black;
+  }
+
+.sub-details {
+    line-height: 2rem;
+}
 
   .get-app {
       height: 482px;
+      background: url(../images/bg_banner_app.jpg);
   }
 
   .travel-inspiration {

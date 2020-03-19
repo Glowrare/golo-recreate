@@ -1,18 +1,8 @@
-* {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-}
-
 body {
     font-family: 'Sen', sans-serif;
     line-height: 3rem;
 }
 
-.general-menu {
-    height: 85px;
-    border-bottom: solid 1px gold;
-}
 
 .basic-padding {
     padding: 50px 30px 20px 50px;
@@ -20,11 +10,17 @@ body {
 
 .explore-the-world {
     height: 511px;
-    background: url(../images/christmas-3823556_1920.jpg) no-repeat;
-    color: white;
+    background: url(../images/luggage-1149289_1920.jpg) no-repeat;
     display: flex;
     align-items: center;
     justify-content: space-around;
+}
+
+.city-search-format {
+    margin-top: 20px;
+    padding: 15px 150px;
+    border-radius: 60px;
+    border: 0;
 }
 
 .large-body-text {
@@ -32,33 +28,43 @@ body {
 }
 
 a {
-    /* text-decoration: underline; */
-    color: white;
+    color: black;
     padding: 10px;
 }
 
-.explore-image img{
-    /* float: right; */
+/* .explore-image img{
+    float: right;
     max-height: 450px;
-}
+} */
 
 button {
     background-color: rgb(27, 87, 155);
+    color: wheat;
     border: none;
     padding: 15px;
     position: fixed;
     top: 85%;
     left: 3%;
-    border-radius: 10%;
+    border-radius: 60px;
   }
 
   .popular-cities {
       height: 905px;
   }
-  
-  /* .places-row-one {
-      max-height: 50%;
+
+  /* .popular-cities-showcase {
+      display: flex;
+      flex-direction: row;
   } */
+  
+ .place {
+     width: 25%;
+ }
+
+ .places-row-one {
+     display: flex;
+
+ }
 
   .place-image img{
       max-width: 100%;

@@ -158,9 +158,15 @@ ul li a {
 .page-title-and-search {
     display: flex;
     justify-content: space-between;
-    /* align-items: baseline; */
     max-width: 450px;
-    /* padding: 20px 0 0 100px; */
+}
+
+
+.nav-search-format {
+    padding: 15px 30px;
+    margin-left: 25px;
+    border: none;
+    border-bottom: solid 1px grey;
 }
 
 .nav-menu-items {
@@ -193,11 +199,18 @@ ul li a {
   .destinations-dropdown-menu a:hover {background-color: #f1f1f1}
   
   /* Show the dropdown menu on hover */
-  .nav-menu-items:hover .destinations-dropdown-menu {
+  .destinations-now:hover .destinations-dropdown-menu {
     display: block;
   }
   
   /* Change the background color of the dropdown button when the dropdown content is shown */
-  .nav-menu-items:hover .sub-destinations {
-    background-color: #5e69c7;
+  .destinations-now:hover .sub-destinations {
+    background-color: hotpink;
+  }
 
+.place-background {
+    background: hotpink;
+    padding: 0px 15px;
+    border-radius: 60px;
+
+}

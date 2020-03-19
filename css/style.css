@@ -16,6 +16,13 @@ body {
     justify-content: space-around;
 }
 
+.city-search-format {
+    margin-top: 20px;
+    padding: 15px 150px;
+    border-radius: 60px;
+    border: 0;
+}
+
 .large-body-text {
     font-size: 60px;
 }
@@ -32,6 +39,7 @@ a {
 
 button {
     background-color: rgb(27, 87, 155);
+    color: wheat;
     border: none;
     padding: 15px;
     position: fixed;
@@ -55,7 +63,7 @@ button {
 
  .places-row-one {
      display: flex;
-     
+
  }
 
   .place-image img{

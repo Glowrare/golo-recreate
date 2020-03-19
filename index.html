@@ -5,8 +5,10 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link href="https://fonts.googleapis.com/css?family=Baloo+Thambi+2:400,700|Sen:400,700,800&display=swap" rel="stylesheet">
         <script src="https://kit.fontawesome.com/5183653b0f.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="css/reset.css">
         <link rel="stylesheet" href="css/style.css">
         <link rel="stylesheet" href="css/menu.css">
+        
         <title>Home - Golo </title>
     </head>
     <body>
@@ -34,25 +36,32 @@
                     <div class="primary-menu">
                         <div class="page-title-and-search">
                             <h1 class="large-body-text">Golo. </h1>
-                            <form action="">
-                                <label for="">
-                                    <input type="text" placeholder="Search places, cities">
+                            <form>
+                                <label>
+                                    <input type="text" class="nav-search-format" placeholder="Search places, cities"> <i class="fas fa-search"></i>
                                 </label>
                             </form>
                         </div>
                         <div>
                             <ul class="nav-menu-items">
-                                <li class="sub-destinations"> Destinations</li>
-                                <div class="destinations-dropdown-menu">
-                                    <a href="#">Amsterdam</a>
-                                    <a href="#">Bangkok</a>
-                                    <a href="#">Barcelona</a> 
+                                <div class="destinations-now">
+                                    <li class="sub-destinations"> Destinations <i class="fas fa-angle-down"></i> </li>
+                                    <div class="destinations-dropdown-menu">
+                                        <a href="#">Amsterdam</a>
+                                        <a href="#">Bangkok</a>
+                                        <a href="#">Barcelona</a>
+                                        <a href="#">London</a>
+                                        <a href="#">Bangkok</a>
+                                        <a href="#">Los Angeles</a> 
+                                        <a href="#">New York</a> 
+                                        <a href="#">Paris</a> 
+                                        <a href="#">Tokyo</a> 
+                                    </div>
                                 </div>
                                 <li> <a href="#">Login</a></li>
                                 <li> <a href="#">Sign Up</a></li>
                                 <li> <a href="#"><i class="fas fa-cart-plus"></i></a></li>
-                                <li> <a href="#">Places</a></li>
-                                <li> <a href="#"> <i class="fas fa-plus"></i> Add Place</a></li>
+                                <li class="place-background"> <a href="#"> <i class="fas fa-plus"></i> Add Place</a></li>
                             </ul>
                         </div>
                     </div>
@@ -64,7 +73,7 @@
                         <h1 class="large-body-text"> Explore the world</h1>
                         <form>
                             <label>
-                                <input type="text" placeholder="Type a city or location">
+                                <input class="city-search-format" type="text" placeholder="Type a city or location"> <i class="fas fa-search"></i>
                             </label>
                         </form>
                         <p>
@@ -81,8 +90,8 @@
                     
                 <div>
                     <button>
-                        <i class="fas fa-cart-plus"></i>
-                        PURCHASE <strong>GOLO</strong>
+                        <p> <i class="fas fa-cart-plus"></i>
+                        PURCHASE <strong>GOLO</strong></p>
                     </button>
                 </div>
                 <div class="popular-cities">
@@ -124,44 +133,6 @@
                                 <div class="country"></div>
                                 <div class="sub-details"></div>
                             </div>
-                        </div>
-
-                        <div class="place japan">
-                            <div class="place-image">
-                                <a href="#"><img src="images/japan-217882.jpg" alt=""></a>
-                            </div>
-                            <div class="place-details">
-                                <div class="country"></div>
-                                <div class="sub-details"></div>
-                            </div>
-                        </div>
-                        <div class=" place france">
-                            <div class="place-image">
-                                <a href="#"><img src="images/eiffel-tower-975004.jpg" alt=""></a>
-                            </div>
-                            <div class="place-details">
-                                <div class="country"></div>
-                                <div class="sub-details"></div>
-                            </div>
-                        </div>
-                        <div class="place new-york">
-                            <div class="place-image">
-                                <a href="#"><img src="images/new-york.jpg" alt=""></a>
-                            </div>
-                            <div class="place-details">
-                                <div class="country"></div>
-                                <div class="sub-details"></div>
-                            </div>
-                        </div>
-                        <div class="place los-angeles">
-                            <div class="place-image">
-                                <a href="#"><img src="images/los-angeles-1598750.jpg" alt=""></a>
-                            </div>
-                            <div class="place-details">
-                                <div class="country"></div>
-                                <div class="sub-details"></div>
-                            </div>
-                        </div>
                         </div>
                     </div>
                     <div class="places-row-two">

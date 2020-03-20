@@ -3,9 +3,8 @@ body {
     line-height: 3rem;
 }
 
-
 .basic-padding {
-    padding: 0 30px 20px 50px;
+    padding: 15px 30px 20px 50px;
 }
 
 .explore-the-world {
@@ -30,10 +29,12 @@ body {
 
 .large-mini-body-text {
     font-size: 45px;
+    font-weight: bold;
 }
 
 .moderate-body-text {
     font-size: 30px;
+    font-weight: bold;
 }
 
 .medium-body-text {
@@ -41,16 +42,24 @@ body {
     font-weight: bold;
 }
 
+.small-body-text {
+    font-size: 13px;
+}
+
+.reduced-line-height {
+    line-height: 2rem;
+}
 /* font definitions - end*/
 
-a {
+.explore-the-world a {
     color: black;
     padding: 10px;
 }
 
 button {
-    background-color: hotpink;
+    background-color: #23d3d3;
     color: white;
+    font-family: inherit;
     border: none;
     padding: 15px;
     position: fixed;
@@ -58,11 +67,24 @@ button {
     left: 3%;
     border-radius: 60px;
     z-index: 10;
-  }
+}
 
-  .popular-cities {
-      height: 905px;
-  }
+button strong {
+    color: black;
+}
+
+button:hover{
+    background: black;
+}
+
+button strong:hover {
+    color: #23d3d3;
+}
+
+
+.popular-cities {
+  height: 905px;
+}
 
   .popular-cities-showcase {
       height: 47%;
@@ -72,7 +94,7 @@ button {
      width: 25%;
  }
 
- .places-row {
+.places-row {
      display: flex;
  }
 
@@ -80,13 +102,12 @@ button {
     position: relative;
 }
 
-  .place-image img{
+.place-image img{
       border-radius: 20px;
       max-width: 90%;
-      opacity: 1;
-  }
+}
 
-  .place-details {
+.place-details {
       position: absolute;
       display: flex;
       flex-direction: column;
@@ -110,13 +131,56 @@ button {
   }
 
   .travel-inspiration {
-      height: 390px;
+      height: fit-content;
   }
 
-  .footer {
-      height: 294px;
+  .inspiration-content-area {
+    display: flex;
+}
+
+.inspiration-image img{
+    border-radius: 20px;
+    max-width: 90%;
+}
+
+.travel-inspiration .article-container a {
+    text-decoration: none;
+    color: black;
+}
+
+.travel-inspiration .article-container h3 a {
+    border-bottom: solid 1px #23d3d3;
+}
+
+.footer {
+    height: 294px;
+    background: #f7f4f4;
+    border-top: solid 1px #d1cdcd;
+    border-bottom: solid 1px #d1cdcd;
+    padding-top: 40px;
   }
+
+.footer-arrangement {
+    display: flex;
+    justify-content: space-between;
+}
+
+.fa-facebook-square{
+    color: blue;
+}
+
+.fa-twitter-square{
+    color: rgba(16, 150, 212, 0.699);
+}
+.fa-youtube-square{
+    color: red;
+}
+
+.fa-instagram-square{
+    color: black;
+}
 
   .copyrights {
      height: 86px;
+     text-align: center;
   }

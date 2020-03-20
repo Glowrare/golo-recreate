@@ -28,6 +28,10 @@ body {
     font-size: 60px;
 }
 
+.large-mini-body-text {
+    font-size: 45px;
+}
+
 .moderate-body-text {
     font-size: 30px;
 }
@@ -79,7 +83,7 @@ button {
   .place-image img{
       border-radius: 20px;
       max-width: 90%;
-      opacity: 0.5;
+      opacity: 1;
   }
 
   .place-details {
@@ -100,6 +104,9 @@ button {
   .get-app {
       height: 482px;
       background: url(../images/bg_banner_app.jpg);
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
   }
 
   .travel-inspiration {

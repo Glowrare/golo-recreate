@@ -49,6 +49,10 @@ body {
 .reduced-line-height {
     line-height: 2rem;
 }
+
+.white-text {
+    color: white;
+}
 /* font definitions - end*/
 
 .explore-the-world a {
